@@ -1,6 +1,6 @@
 {
   "name": "gulp-capacitorjs-common",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Common gulp tasks for CapacitorJS",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "gulp-help": "^1.6.0",
     "isparta": "^3.0.3",
     "isparta-instrumenter-loader": "^0.2.1",
-    "karma": "^0.12.37",
+    "karma": "^0.13.9",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.2.0",
     "karma-coverage": "douglasduteil/karma-coverage#next",
