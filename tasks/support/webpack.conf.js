@@ -1,7 +1,8 @@
 module.exports = function (config) {
   return {
     output: {
-      filename: config.src.out
+      filename: config.src.out,
+      libraryTarget: 'umd'
     },
     module: {
       preLoaders: [],
