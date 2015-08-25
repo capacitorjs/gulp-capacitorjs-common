@@ -12,7 +12,7 @@ module.exports = function (config) {
 
     // list of files / patterns to load in the browser
     files: [
-      config.commonGulpdir + '/node_modules/babel-core/browser-polyfill.min.js',
+      config.commonGulpdir + '/node_modules/babel-core/browser-polyfill.js',
       config.test.in
     ],
 

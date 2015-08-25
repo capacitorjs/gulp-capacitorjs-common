@@ -1,6 +1,6 @@
 {
   "name": "gulp-capacitorjs-common",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Common gulp tasks for CapacitorJS",
   "main": "index.js",
   "scripts": {
