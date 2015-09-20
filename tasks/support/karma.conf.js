@@ -1,4 +1,6 @@
-var webpackConf = require('./webpack.conf');
+'use strict';
+
+var cloneDeep = require('lodash.clonedeep');
 
 module.exports = function (config) {
 
@@ -60,7 +62,7 @@ module.exports = function (config) {
   karmaConf.autoWatch = dev;
   karmaConf.singleRun = !dev;
 
-  var webpack = webpackConf(config);
+  var webpack = cloneDeep(config.webpack);
   if (!dev) {
     webpack.module.preLoaders.push({
       test: /(\.js)$/,

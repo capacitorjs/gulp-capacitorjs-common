@@ -1,6 +1,6 @@
 {
   "name": "gulp-capacitorjs-common",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Common gulp tasks for CapacitorJS",
   "main": "index.js",
   "scripts": {
@@ -41,6 +41,8 @@
     "karma-sinon-chai": "^1.0.0",
     "karma-sourcemap-loader": "^0.3.5",
     "karma-webpack": "^1.5.1",
+    "lodash.clonedeep": "^3.0.2",
+    "lodash.merge": "^3.3.2",
     "mocha": "^2.2.5",
     "node-libs-browser": "^0.5.2",
     "run-sequence": "^1.1.1",

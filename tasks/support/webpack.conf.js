@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function (config) {
   return {
     output: {
@@ -18,7 +20,7 @@ module.exports = function (config) {
       }
     },
     resolveLoader: {
-      modulesDirectories: config.webpack.loaderModuleDirectories
+      modulesDirectories: ['node_modules', 'node_modules/gulp-capacitorjs-common/node_modules']
     },
     devtool: 'source-map'
   };
