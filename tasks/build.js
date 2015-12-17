@@ -11,5 +11,9 @@ module.exports = function (gulp, name, config) {
     webpackSettings.watch = !!config.args.dev;
     return webpack(webpackSettings)
       .pipe(gulp.dest(config.outdir));
+  }, {
+    options: {
+      dev: 'Rebuild on file changes'
+    }
   });
 };
